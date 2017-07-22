@@ -11,6 +11,8 @@ http://webdev-webtech.s3.amazonaws.com/index.html
 
 ### Azure
 
+TODO: Revisit with blob store
+
 Create a deployment user
 
 > $ az webapp deployment user set --user-name webdevtesting --password REDACTED
