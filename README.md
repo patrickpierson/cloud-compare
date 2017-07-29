@@ -11,8 +11,6 @@ http://webdev-webtech.s3.amazonaws.com/index.html
 
 ### Azure
 
-TODO: Revisit with blob store
-
 Create a deployment user
 
 > $ az webapp deployment user set --user-name webdevtesting --password REDACTED
@@ -29,10 +27,6 @@ Create a web app
 
 > $ az webapp create --name webdev --resource-group myResourceGroup --plan myAppServicePlan
 
-https://docs.microsoft.com/en-us/azure/app-service-web/app-service-web-get-started-html
-
-At this point should have a site as per documentation but it didnt work?
-
 ### Google
 
 Make Bucket
@@ -47,5 +41,4 @@ Make it public
 
 > gsutil acl ch -u AllUsers:R gs://webdevdemo
 
-At this point should have a site as per documentation but it didnt work?
 
