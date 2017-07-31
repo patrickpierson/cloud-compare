@@ -3,6 +3,7 @@
 Create S3 bucket 
 
 > $ aws s3 mb s3://webdev-webtech
+
 Deploy JavaScript to S3 and make it public 
 
 > $ aws s3 sync ./_site s3://webdev-webtech --acl public-read
