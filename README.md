@@ -28,6 +28,8 @@ Create a web app
 
 > $ az webapp create --name webdev --resource-group myResourceGroup --plan myAppServicePlan
 
+Deploy to webapp service via FTP
+
 ### Google
 
 Make Bucket
