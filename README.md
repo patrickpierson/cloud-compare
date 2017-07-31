@@ -4,7 +4,7 @@ Create S3 bucket
 
 > $ aws s3 mb s3://webdev-webtech
 
-Deploy JavaScript to S3 and make it public 
+Deploy code to S3 and make it public 
 
 > $ aws s3 sync ./_site s3://webdev-webtech --acl public-read
 
@@ -36,7 +36,7 @@ Make Bucket
 
 > gsutil mb gs://webdevdemo
 
-Deploy JavaScript to Google
+Deploy code to Google
 
 > gsutil rsync -R ./ gs://webdevdemo
 
